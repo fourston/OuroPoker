@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "CryptoPoker New",
+    "slug": "game",
+    "privacy": "public",
+    "sdkVersion": "39.0.0",
+    "platforms": ["ios", "android", "web"],
+    "orientation": "portrait",
+    "version": "1.3.0",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "backgroundColor": "#1F293F",
+      "resizeMode": "contain"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*", "src/assets/card/**/*", "src/assets/img/*"],
+    "androidNavigationBar": {
+      "visible": "sticky-immersive"
+    },
+    "android": {
+      "package": "com.game.cryptopoker",
+      "versionCode": 1,
+      "permissions": [
+        "CAMERA",
+        "RECORD_AUDIO",
+        "READ_PHONE_STATE",
+        "READ_CONTACTS"
+      ]
+    },
+    "ios": {
+      "bundleIdentifier": "com.game.cryptopoker",
+      "buildNumber": "1.0.2.1",
+      "config": {
+        "usesNonExemptEncryption": false
+      }
+    },
+    "description": ""
+  }
+}
